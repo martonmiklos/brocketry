@@ -1,0 +1,150 @@
+<HTML>
+
+
+
+<!-- Mirrored from brocketry.cabspace.com/files/pages_hu/theory.html by HTTrack Website Copier/3.x [XR&CO'2004], Mon, 11 Dec 2006 20:33:50 GMT -->
+<HEAD>
+  <TITLE>BRocketry/rakétaelmélet </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-2">
+<STYLE type="text/css">
+a.hey { text-decoration: none; font-weight:bold; color: #FF6633; } 
+a.kicsi{visibility: visible; font-size: 8pt; font-weight:;  font-family:comic sans ms; font-style:}
+A.link{visibility: visible; font-size: 10pt; font-weight:bold;  font-family:comic sans ms; font-style:}
+A.link:link { color: #293D96 ; text-decoration:none; }
+A.link:visited { color:#293D96; text-decoration:none; }
+A.link:active { color: #293D96; text-decoration:none; }
+A.link:hover { color: #FF6633; text-decoration:none; }
+</STYLE>
+
+
+</HEAD>
+<BODY  BGCOLOR="white" TEXT="black" LINK="#293D96"
+ VLINK="#293D96">
+
+
+<H2>Rakétaelmélet</H2>
+
+  <a class="link"></a><A class="link" HREF="#theory">Bevezető </A>
+  <a class="link">| </a><A class="link" HREF="#theory">Összimpulzus </A>
+  <a class="link">| </a><A class="link" HREF="#theory">Fajlagos impulzus </A>
+  <a class="link">| </a><A class="link" HREF="#theory">Tolóerő </A>
+  <a class="link">| </a><A class="link" HREF="#theory">Égési felület </A>
+	
+<P>&nbsp; </P>
+<H3><A NAME="shorttheory"></A>Bevezető a rakétameghajtásba</H3>
+<p align="justify"> Az itt következő elméleti rész csupán felületes tárgyalása a rakétamotrok 
+működési jellemzőinek, célja a rakétázás kapcsán előforduló fontosabb fogalmak és paraméterek 
+ismertetése. Néhány jellemzőről 
+részletesebben is szó esik majd a <A class="link" HREF="underwork.html">fúvóka</a> c. fejezetben, ám aki valóban rakétamotor 
+tervezésébe 
+fogna, annak ajánlatos valami komolyabb irodalmat, rakétás szakkönyveket áttanulmányozni. </P>
+<img src="../motor/motor2.gif" border="1" hspace="10" vspace="5" align="left" alt="motorvázlat"><p align="justify"> A klasszikus rakétamotor 
+legfontosabb részei az égéskamra, amelyben az üzemanyag égése zajlik, valamint a fúvóka, 
+amely a kiáramló égéstermékeket hivatott  minél nagyobb sebességre felgyorsítani, illetve 
+irányított sugárba terelni. A nagy sebességgel kiáramló gázak, gőzők és szilárd részecskék 
+az impulzusmegmaradás törvénye szerint a kiáramlással ellentétes irányú tolóerőt hoznak 
+létre.</P>
+
+<p align="justify"> Az impulzus meghatározás szerint a tömeg és sebesség szorzata, mértékegysége 
+a Ns (1 Ns egy másodpercen át ható 1 N nagyságú erőt jelent). Az impulzusmegmaradás törvénye 
+szerint egy test impulzusa nem változik, ami azt jelenti, 
+hogy ha az <em><b>m</b></em> tömegű üzemanyag égéstermékek formájában <em><b>v</b></em> 
+sebességgel hagyja el a rakétát, akkor impulzusa <em><b>m&middot;v</b></em> Ns lesz, a 
+rakéta impulzusának pedig értelemszerűen <em><b>-m&middot;v</b></em> Ns-nak kell lennie. A 
+rakéta tehát az égéstermékekkel ellenkező irányba fog kimozdulni ahhoz, hogy az eredő impulzus 
+nulla maradjon.
+<img src="../motor/impulse.gif" border="1" hspace="10" vspace="5" alt="impulzusmegmaradás" align="right" >
+Látható, hogy minél nagyobb tömegű és minél nagyobb sebességre felgyorsított égéstermék hagyja 
+el a rakétát, annál nagyobb lesz az impulzusa, ennek megfelelően a rakéta sebessége is (a 
+későbbiekben látni fogjuk, hogy a kiáramlás sebessége többet számít mint a kiáramló tömeg).
+ A teljes impulzusmennyiség amit a rakétamotor műküdése alatt képes leadni, az 
+ <em><b>összimpulzus (It)</b></em>. Ez a rakétamotrok legfőbb jellemzője és egyben 
+a motrok <a class="link" href="general_standards.html#classes">osztályozásának</a> alpjául is szolgál. Az összimpulzus a rakétamotor energetikai 
+potenciálját jelöli és arra enged következtetni, hogy adott tömegű rakétát milyen magasra 
+visz fel az adott motor. Az összimpulzusból egymagában nem állapítható meg a motor tolóereje 
+(egy 40 Ns összimpulzusú motor szolgáltathat 10 N tolóerőt 4 másodpercen 
+keresztül, de akár 4 N tolóerőt is 10 másodpercen keresztül). Az összimpulzust a tolóerőgörbe 
+integrálásával lehet meghatározni. Grafikusan ábrázolva a tolóerőt az idő függvényében, az 
+összimpulzus a tolóerőgörbe alatti területnek felel meg. Ez egyben azt is jelenti, hogy 
+rakétamotraink összimpulzusát könnyen kiszámolhatjuk, ha valamilyen módon mérni tudjuk a 
+tolóerejét és fel tudjuk rajzolni a tolóerőgörbét.</P>
+<img src="../motor/Itotal2.gif" border="1" hspace="10" vspace="5" alt="összimpulzus"align="left" >
+<p align="justify"> A rakétamotrokkal kapcsolatosan gyakran felmerülő fontos jellemző a 
+<a class="link" href= "propellant_properties.html#isp">fajlagos impulzus</a> (Isp). Ez egy üzemanyagjellemző, amely adott 
+motorban az egységnyi tömegű üzemanyag égése által keletkező impulzusmennyiséget jelöli 
+(1 kg hajtóanyag által 1 s alatt kifejtett tolóerő), mértéke Ns/kg vagy s (1 s = 9.81 Ns/kg). 
+Minél nagyobb az Isp értéke, annál kisebb tömegű üzemanyag szükséges egy adott összimpulzus 
+eléréséhez. Az Isp-t egy motor üzemi paraméterein nagyon könnyű kiszámolni, csupán az 
+összimpulzust kell elosztanunk az üzemanyag tömegével. Ha pl. a fenti 40 Ns-os motor 50 g 
+üzemanyagot tartalmaz, akkor az <b><em>Isp</b></em> = <b><em>It/m </b></em>= 40 [Ns]/0.05 [
+kg] = 800 [Ns/kg] vagy ~80 [s]. Ez az érték kb. egy lőporos motornak felel meg. Látható, 
+hogy egy nagy fajlagos impulzusú üzemanyagból kevesebb szükséges ugyanazon összimpulzus 
+eléréséhez. Pl. egy Isp = 200 s (~ 2000 Ns/kg) üzemanyagból (ez az érték egy jobb kompozit 
+vagy hibrid hajtóanyag jellemzője) a 40 Ns-os motorba csak <b><em>m</b></em> = <b><em>It/Isp 
+</b></em> = 40 [Ns]/ 2000 [Ns/kg] =  0.02 [kg], azaz csupán 20 g szükséges. </P>
+
+<p align="justify"> A fentiekből látható, hogy az impulzus, bár igen lényeges motorjellemző, 
+önmagában nem minden. A rakétamotor teljesítményének legfontosabb mértéke a <b><em>tolóerő
+ (F)</b></em> (mértékegysége a N mint minden erőnek). Az 
+előbbi példánál maradva, hiába 40 Ns-os a 4 N tolóerejű motor, amennyiben egy 
+<em><b>m </b></em>= 400 g induló tömegű rakétát szeretnénk meghajtani vele, nem fogunk 
+sikerrel járni. A rakéta súlya ugyanis a gravitáció következtében 
+<em><b>m&middot;g </em></b>= 0.4 [kg] &middot; 9.81 [m/s<sup>2</sup>] ~ 4 N, a motor tolóereje 
+tehát éppen csak arra elegendő, hogy 10 másodpercen keresztül lebegésben tartsa a rakétát, 
+de felfele mozdítani nem tudja. Ha azonban a 40 Ns-os motor tolóereje 10 N  (tehát 
+2.5-szer nagyobb mint a rakéta súlya), képes legyőzni a gravitációt és magasba emelni a 
+rakétát. A tolóerő nagyságából (ismerve a rakéta tömegét) a kezdeti gyorsulásra illetve a 
+végsebességre lehet következtetni. </P>
+ <img src="../motor/bpcurve.gif" border="1" hspace="10" vspace="5" alt="jellegzetes lőporos tolóerőgörbe" align="right" > 
+<p align="justify"> Jó tudni, hogy a tolóerő alatt általában az átlagos tolóerőt 
+értik a rakétázásban. A tolóerőgörbe ugyanis sosem egy vízszintes egyenes, de még a legjobb 
+esetben is csak egy lapos görbe. Különösen lőporos motrok esetén nagy a különbség a maximális 
+illetve az átlagos tolóerő között. Komolyabb gyártók általában mellékelik a motorhoz a 
+tolóerőgörbét is, ez alapján lehet igazán jól kiszámítani a rakétánk repülési jellemzőit. 
+ A jobboldali ábrán egy hátulégős lőporos motorra jellemző tolóerőgörbe látható. Megfigyelhető, 
+ hogy kb. 0,8 - 0,9 s hosszan szolgáltat hasznos tolóerőt a motor, illetve hogy az átlagos 
+ tolóerő 40%-al kisebb a maximális értéknél. A motor összimpulzusa megközelítőleg 5 Ns lesz 
+ tehát  az <b><em>It =  F&middot;t</b></em> képlet szerint. Az összimpulzus pontos értékét 
+ a görbe integrálásával kapjuk meg. </P>
+
+ <p align="justify"> A legkedveltebb tolóerőgörbe a semlges (lapos), mivel a fúvóka hatásfoka 
+ állandó nyomáson a legjobb. Ez nem jelenti azonban azt, hogy minden más típusú görbe csak 
+ rossz lehet. Az előbbiekben tárgyalt, lőporos motrokra jellemző tolóerőprofilnak is megvannak 
+ a maga előnyei: a kezdeti nagyobb tolóerő magas gyorsulási értékeket eredményez, a rakéta 
+ hamar eléri a dinamikus stabilitáshoz szükséges sebességet.  A további kisebb tolóerő elég 
+ ahhoz, hogy a rakéta kismértékben tovább gyorsuljon (ésszerű sebességre, ahol a légellenállás 
+ nem emészti fel pillanatok alatt a motor energiáját) és nagy magasságot érjen el. </P>
+  <p align="justify"> De mi is határozza meg a tolóerőgörbe alakját? Mi befolyásolja a tolóerő
+  nagyságát?  Az impulzus képletéből már gyanítható, hogy a rakétamotor "ereje" a fúvókán időegység 
+  alatt kilépő részecskék tömegétől és sebességétől függ. Első megközelítésben a sebességért 
+  a fúvóka illetve a kamranyomás a felelős, míg az időegység alatt kiáramló tömeggel a 
+  hajtóanyag égési sebessége valamint az <b><i>égési felület</i></b> van szoros összefüggésben.  
+ <img src="../motor/changehu.gif" border="1" hspace="10" vspace="5" alt="égési felület változása" width="346" height="89" border="0", align="left">
+ A jobboldali ábrán egy négyágú csillag keresztmetszetű furattal ellátott üzemanyagblokk 
+ látható kezdeti álapotban, majd egy későbbi időpontban, amikor az üzemanyag egy része már 
+ elégett és a furat kitágult. Azonos égési sebességet feltételezve mindkét esetben, 
+ egyértelmű, hogy a t2 pillanatban időegységenként jóval több üzemanyag ég el, ami nagyobb 
+ nyomást és ezáltal nagyobb tolóerőt eredményez. Úgy a nyomásgörbe, mint a tolóerőgörbe időben 
+ növekvő, szakszóval progresszív típusú lesz. Különböző 
+ <a class="link" href="underwork.html">üzemanyagblokk-geometriák</a>  más-más nyomásgörbét eredményeznek, 
+ ezáltal szabályozhatóvá válik a tolóerő. Adott üzemanyag esetén az égési felület segítségével 
+ tudjuk a motor tolóerejét változtatni: minél nagyobb égési felületet biztosítunk, annál 
+ nagyobb lesz a kamranyomás. Lassú égésű üzemanyagok nagy égési felületet igényelnek, míg a 
+ gyorsan égő hajtóanyagokat használva akár hátulégős motrokat is készíthetünk. 
+</P>
+
+<P>Rakétamotrok működéséről nem lehet úgy tárgyalni, hogy figyelmen kívül hagyjuk a fúvókát. 
+</P>
+<img src="../underwork/underwork.gif" width="229" height="26" border="0">
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+
+
+
+
+</BODY>
+
+
+
+<!-- Mirrored from brocketry.cabspace.com/files/pages_hu/theory.html by HTTrack Website Copier/3.x [XR&CO'2004], Mon, 11 Dec 2006 20:33:50 GMT -->
+</HTML>

@@ -1,0 +1,160 @@
+<HTML>
+
+
+<!-- Mirrored from brocketry.cabspace.com/files/pages_hu/recovery2.html by HTTrack Website Copier/3.x [XR&CO'2004], Mon, 11 Dec 2006 20:33:58 GMT -->
+<HEAD>
+  <TITLE>BRocketry/ejtöernyö/kioldás </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-2">
+<STYLE type="text/css">
+a.alcim{visibility: visible; font-size: 13pt; font-weight:bold;  font-family:; font-style:}
+a.decor{visibility: visible; font-size: 10pt; font-weight:bold;  font-family:comic sans ms; font-style:}
+a.graph{visibility: visible; font-size: 11pt; font-weight:;  font-family:; font-style:italic;}
+a.hey { text-decoration: none; font-weight:bold; color: #FF6633; } 
+a.kicsi{visibility: visible; font-size: 8pt; font-weight:;  font-family:comic sans ms; font-style:}
+a.note { text-decoration: none; font-size: 10pt; font-weight:; font-style:italic; } 
+a.link{visibility: visible; font-size: 10pt; font-weight:bold;  font-family:comic sans ms; font-style:}
+a.link:link { color: #293D96 ; text-decoration:none; }
+a.link:visited { color:#293D96; text-decoration:none; }
+a.link:active { color: #293D96; text-decoration:none; }
+a.link:hover { color: #FF6633; text-decoration:none; }
+</STYLE>
+</HEAD>
+<BODY  BGCOLOR="white" TEXT="black" LINK="#293D96" VLINK="#293D96">
+
+<H2> Az ejtőernyő kioldása</H2>
+  <a class="decor"></a><A class="link" href="#phases"> A repülés szakaszai</a>
+  <a class="decor">|<a class="decor"></a><A class="link" href="#timer"> Időzítéses kioldás</a>
+  <a class="decor">| </a><A class="link" href="#altimeter">Magasságmérős kioldás</a> 
+
+<p>&nbsp;</p>
+
+ <table border="0" cellpadding="6" cellspacing="0" align="right">
+<tr>
+    <td><img border="1" hspace="6" vspace="4" src="../recovery/updown.gif"></td>
+
+</tr>
+<tr>
+	<td align="middle"><a class="graph"><b>1. Ábra: </b>A repülés <br>szakaszai</a></td>
+</tr>
+</table>      
+
+<a class="kicsi">&nbsp;<br></a>
+<a name="phases" class="alcim">A repülés szakaszai</a>
+
+<p align="justify">Egy hatékony ejtőernyőrendeszer tervezése és építése először is rakétánk rövid repülésének 
+a minél behatóbb megértését feltételezi. A modellrakéták repülése a  mellékelt ábrán is 
+látható fontosabb mozzanatokra osztható: </p>
+<ol>
+<li><p align="justify"> az elindulást követő néhány másodpercben a motor tolóereje hajtja 
+előre a rakétát. Ez a szakasz általában igen rövid (0.5&nbsp;-&nbsp;3&nbsp;s), a rakétamotrok rövid 
+üzemidejéből adódóan. Léteznek kisméretű kompozit motorok, amelyek 7&nbsp;-&nbsp;10&nbsp;s hosszan is 
+képesek tolóerőt szolgáltatni, de ez jellemzően nem amatőr ketegória. Ebben a szakaszban 
+a rakéta folyamatosan gyorsul amíg a tolóerő tart illetve míg a légellenállás és gravitáció 
+összege nagyobb nem lesz a tolóerőnél. A gyorsulás az indulás első pillanataiban a legnagyobb, 
+a jellemző gyorsulási értékek 5&nbsp;-&nbsp;15&nbsp;g közé tehetőek. </p></li>
+
+<li><p align="justify"> az üzemanyag elfogytával a rakéta tovább halad felfele amíg a lendülete 
+el nem fogy. Ebben a szakaszban a rakéta  akár háromszor nagyobb távot 
+is megtehet, mint az első szakaszban. Rögtön a tolóerő megszűnte után igen magasak a lassulási értékek
+(5&nbsp;-&nbsp;10&nbsp;g de akár még nagyobb is), mivel nagy sebességeknél nagyon nagy a rakétára ható, 
+légellenállás okozta fékezőerő.</p></li>
+ 
+<li><p align="justify">amikor a gravitáció és a légellenállás teljesen felemészti lendületet, 
+a rakéta eléri pályája csúcsát, itt visszafordul és a gravitáció hatására lefele kezd 
+zuhanni. Ez az a pont, ahol az ejtőernyő ki kellene oldódjon, mert itt a legkisebb a rakéta 
+sebessége. Ha túl korán történik a kioldás, a rakétánk nem éri el a maximális magasságot, 
+ha túl későn, lehet hogy a földbe csapódik. Fennáll az a veszély is, hogy nagy sebességen 
+történő kioldásnál az ernyő nem bírja meg a hirtelen sokkot és elszakad valamelyik része. </p></li>
+
+ <li><p align="justify"> az utolsó szakasz az ejtőernyős süllyedés, már amennyiben az ejtőernyő 
+ időben kinyílt. Ilyenkor az egyetlen fennálló veszély az, hogy a rakéta elsodródik a széllel és 
+ elveszítjük.</p></li>
+</ol>
+
+<p align=justify>A legnagyobb nehézséget a pálya legmagasabb pontjának meghatározása jelenti. 
+Kétféle megközelítés létezik a kioldás pontjának meghatározására. Az első eljárás az egyszerűbb, 
+viszont pontatlanabb: szimulációval ki kell számolni a motor kiégése és a legmagasabb pont 
+elérése közti időt, majd egy beépített időzítő segítségével kioldani az ernyőt a kiszámított 
+pillanatban. A módszer nem a legpontosabb, mivel a szimulációk gyakran nem tükrözik a valóságot, 
+így megeshet, hogy az időzítő nem a tetőponton oldja ki az ejtőernyőt. Legtöbb esetben azonban 
+elfogadható ez a pontosság, mivel a legmagasabb pont környékén a rakéta igen lassan mozog (az utolsó 5 m 
+megtételéhez kb. 1 másodpercre van szüksége), 1&nbsp;-&nbsp;2 másodperc eltérés tehát nem határoz túl sokat. 
+A másik megközelítés szerint valamilyen módon a magasságot kell mérni sűrű időközönként és 
+amint csökkenni kezd az értéke, kioldani az ernyőt. A magasság helyett lehet nyomást vagy 
+sebességet is mérni, mivel ezek kapcsolatban állnak egymással. Ezt a megközelítést nehezíti, 
+hogy mindenik esetben műszeres megoldásról van szó, mivel az említett paramétereket valmivel 
+mérni kell.</p>
+
+<a class="kicsi">&nbsp;<br></a>
+<a name="timer" class="alcim">Az időzítő (késleltető)</a>
+
+<p align=justify><em>A pirotechnikai időzítőtöltet </em>használata a legegyszerűbb 
+(és kis rakéták esetén talán az egyetlen alkalmazható) megoldás. Ez egy lassan égő keverék, 
+amely a motorban az üzemanyag és a kidobótöltet között helyezkedik el. Anyaga lehet lassított 
+égésű üzemanyag, pl. KNO<small>3</small> és szén 1:1 arányú keveréke. 
+Lőporos motrokba megfelel KNO<small>3</small>/dextróz 1:1 keveréke is, amely azonos nyomáson sokkal lassabban 
+ég, mint a lőporos üzemanyagok. "Cukros" üzemanyagokkal KNO<small>3</small>/epoxy időzítőt szokás használni, 
+ez igen lassan ég a cukros motrok magas nyomásán is, így kevés kell belőle. Nem feltétlenül szükséges, de jó, ha az 
+időzítőtöltet égése jó sok füsttel jár, mert így nyomon követhető a rakéta a motor leállta 
+után is. Kis motorátmérők esetén a késleltetőtöltet az üzemanyag fölé, ennek folytatásába 
+van préselve és a motor teljes keresztmetszetét kitölti. Az időzítőt egy középen átlyukasztott 
+kartonkarikával szokás lezárni, ez után következik majd a kidobótöltet, amely rendszerint 
+0.3&nbsp;-&nbsp;0.5&nbsp;g feketelőpor.  A kidobótöltetet nem kell préselni, hogy megfelelően gyors 
+legyen az égése. Hogy ne hulljon ki a kidobótöltet, a motrot egyszerűen egy papírkarikával zárjuk 
+le felülről. A papírkarika átmérője valamivel nagyobb kell legyen a motor belső átmérőjénél, így ha 
+a motor töltésére használt présrúdal a motorba nyomjuk, megszorul benne. A papírkarikát olyan mélyen kell 
+csak belenyomni a motorba, hogy a kidobótöltet még szabadon mozoghasson alatta (a motrot megrázva zörgés 
+kell kihallatszódjon). 
+
+<table border="0" cellpadding="6" cellspacing="0" align="right">
+<tr>
+    <td><img border="1" hspace="6" vspace="4" src="../recovery/pyrotimer.gif"></td>
+
+</tr>
+<tr>
+	<td align="middle"><a class="graph"><b>2. Ábra: </b>Késleltető- és kidobótöltettel ellátott lőporos motor működésének fázisai</a></td>
+</tr>
+</table>  
+
+<p align=justify>A mellékelt ábrán egy hátulégős, késleltető- és kidobótöltettel ellátott lőporos kismotor 
+működésének fázisai láthatóak. Begyújtás után az égés kiterjed az üzemanyag teljes égési felületére és 
+ afúvókán kiáramló égéstermékek tolóerőt termelnek. Ekkor van a rakéta a repülés <A class="link" href="#phases">1. szakaszában</a>. 
+ Amikor elfogy az üzemanyag, az égés átterjed a késleltetőtöltetre. Ekkor a motor nyomása leesik, a tolóerő 
+ gyakorlatilag megszűnik, a rakéta pedig tehetetlenségénél fogva megy felfele (<A class="link" href="#phases">2. szakasz</a>). 
+ Miután az időzítőtöltet is mind elégett, a papírkarika lyukán keresztül a láng begyújtja a kidobótöltetet. 
+ A kidobótöltet hirtelen fejlesztett gázai hivatottak kinyomni a motor fölött elhelyezkedő ejtőernyőt 
+ a rakéta törzséből (jó tervezés esetén ez a pillanat  <A class="link" href="#phases"> 
+ repülés 3. szakaszában</a> kellene bekövetkezzen). </p>
+
+<p align=justify> A késleltetőtöltet bepréselte után felmerülhet a kérdés, hogy mi is tartja meg felülről az 
+üzemanyagtömböt, hiszen a motor mechanikai szempontból jóformán lezáratlan marad. A válasz egyszerű: 
+a lőporos motrok üzemi nyomása alacsonyabb, semhogy a motor nyitott végén ki tudná nyomni a bepréselt üzemanyagtömböt. 
+Változhat azonban a helyzet nagyobb nyomáson üzemelő (pl. cukros vagy kompozit) motroknál, illetve agyobb motorátmérők esetén, 
+amikor is az égéstér nyomása nagyobb mint az üzemanyagtömböt fogva tartó surlódási erő. Ilyen esetekben 
+a motor felül leszűkül és késleltető egy szűkített átmérőjű részbe kerül. Így egyrészt 
+ kevesebbet kell használni belőle, másrészt meg biztosan nem fogja kilőni a nyomás az üzemanyagot a motorból. 
+ Természetesen a kidobótöltet is a szűkített részben lesz, a  számára kialakított üregben
+  (részletes leírás a <a class="link" href="motor.html" >motrok </a>építésénél). 
+
+<p align=justify>A késleltetőtöltet használatának kétségkívüli előnye, hogy rendkívül egyszerű 
+és mindenféle segédberendezés nélkül begyújtja a kidobótöltetet. Hátránya, hogy csak egyféle 
+ejtőernyőelrendezést tesz lehetővé, valamint az, hogy előre tudnunk kell a rakétánk majdani 
+jellemzőit a töltet mennyiségének (az időzítés hosszának) meghatározása érdekében. A 
+kereskedelemben kapható mortok általában többféle időzítéssel kerülnek forgalomba, így 
+kiválaszthatjuk a számunkra megfelelő tolóerő/időzítés párost. </p>
+
+<p align=justify><em><b>Az elektromos időzítő</em></b> használata nagyobb rakétáknál válik 
+lehetségessé, ahol a törzs átmérője elég nagy, hogy beleférjen az áramkör, illetve a motor 
+elég erős ahhoz, hogy az áramkör/elemek/gyújtó képviselte plusz tömeg ne jelentsen gondot. 
+Az időzítő akár néhány gombelemről is működtethető és elég ha 3....10 s tartományban 
+állítható. Az időzítő "élesítését" egy gravitációs kapcsoló végzi el, amely a tolóerő 
+megszűntekor előremozdul és bezárja az áramkört. </p>
+<img src="../underwork/underwork.gif"> 
+
+<p align=justify>&nbsp; </p>
+<p align=justify>&nbsp;</p>
+
+</BODY>
+
+<!-- Mirrored from brocketry.cabspace.com/files/pages_hu/recovery2.html by HTTrack Website Copier/3.x [XR&CO'2004], Mon, 11 Dec 2006 20:33:58 GMT -->
+</HTML>

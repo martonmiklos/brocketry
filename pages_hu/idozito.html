@@ -1,0 +1,111 @@
+<HTML>
+
+
+<!-- Mirrored from brocketry.cabspace.com/files/pages_hu/idozito.html by HTTrack Website Copier/3.x [XR&CO'2004], Mon, 11 Dec 2006 20:33:50 GMT -->
+<HEAD>
+  <TITLE>BRocketry/Idozito </TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-2">
+<STYLE type="text/css">
+a.alcim{visibility: visible; font-size: 12pt; font-weight:bold;  font-family:; font-style:}
+a.hey { text-decoration: none; font-weight:bold; color: #FF6633; } 
+a.kicsi{visibility: visible; font-size: 8pt; font-weight:;  font-family:comic sans ms; font-style:}
+A.link{visibility: visible; font-size: 10pt; font-weight:bold;  font-family:comic sans ms; font-style:}
+A.link:link { color: #293D96 ; text-decoration:none; }
+A.link:visited { color:#293D96; text-decoration:none; }
+A.link:active { color: #293D96; text-decoration:none; }
+A.link:hover { color: #FF6633; text-decoration:none; }
+</STYLE>
+</HEAD>
+<BODY>
+
+<center><H2>Ejtöernyő idözitő kapcsolás</h2></center>
+<P>&nbsp; </P>
+<BODY  BGCOLOR="white" TEXT="black" LINK="#293D96"
+ VLINK="#293D96">
+<table>
+<tr>
+<td>
+&nbsp;
+<h5>Alkatrészek:</h5>
+<ul>
+<li>-NE555 időzítő IC
+<li>-8 lábú IC foglalat
+<li>-22uF min. 16V elektrolit kondenzátor
+<li>-10nF min. 16V kondenzátor
+<li>-470k trimmer potméter
+<li>-1N4148 dióda
+<li>-470 ohmos ellenállás
+<li>-BC337 tranzisztor
+<li>-kapcsolók
+<li>-vezetékek
+<li>-9V-os elem csatlakozó
+</ul>
+</td>
+<td>
+<h5>Szükséges eszközök:</h5>
+<ul>
+<li>-nyák (nyomtatott áram kör) lemez
+<li>-fűrész vagy lemezvágó olló
+<li>-tű
+<li>-alkoholos filctoll
+<li>-maró oldat
+<li>-1mm-es fúró
+<li>-fúrógép
+<li>-forrasztópáka
+<li>-ón, folyasztószer
+</ul>
+</td>
+<td>
+&nbsp;
+<center><img src="../tervek/idozito.gif" width=400 border=1></center>
+</td>
+</tr>
+</table>
+<ol>
+
+<li> Szerezzük be az alkatrészeket, és a szükséges eszközöket.<br>
+<img src="../tervek/alkatreszek.jpg" Border=1 width=200><img src="../tervek/alkatresz2.jpg" Border=1 width=200>
+<li> Fűrésszel vagy lemezvágó ollóval (ezzel egyszerűbb) vágjuk ki a megfelelő méretet. Most a 30x25mm-es méretben készítjük el az időzítőt.
+
+<li> A kivágott lemezt tisztítsuk meg szép fényesre súrolószerrel. Utána már ne tapizzuk össze, zsírmentesnek kell lennie. :)
+
+<li> Nyomtassuk ki a nyák tervet az Eagle nevű nyáktervező programmal, úgy, hogy a "mirror" négyzete legyen bepipálva a programban. Aztán vágjuk ki a nyák méretére, és a rezes felületre helyezzük rá a kivágott tervet, és celluxal ragasszuk le (papíron + a nyák hátulján lesz a ragasztó). Ezután tűvel jelöljük be az alkatrészek lábait - a papírt átszúrva szúrjunk bele a rézbe. Van ahol 2 alkatrész lába összeér, oda egy pont kell, és a majdani furatba 2 lábat kell majd forrasztani.
+Ezután szedjük le a papírt.
+
+<li> Az alkoholos filccel rajzoljuk meg az összekötéseket.<br>
+<img src="../tervek/filces.jpg" Border=1 width=200>
+<li> Készítsük elő a marató fürdőt: jó, ha 60-70 fokos a fürdő, mert akkor gyorsabban lemarja a felesleges rézt. Tegyük bele a nyákot a fürdőbe és néha mozgassuk meg, és nézzük, hogy áll a maratás. Ha kész van (kb. 10 perc) akkor mossuk le a nyákot. Vigyázzunk, hogy a marató fürdőből ne kerüljön a ruhánkra, mert azt nem lehet kimosni. 
+A maró oldatot megvehetjük készen, vagy előállíthatjuk vas(III)-kloridból + sósavból. A gyári oldat: 5-15% sósav, 25-40% vas(III)-klorid + adalék anyagok.
+
+<li> A pontozás helyén fúrjuk ki 1mm-es fúróval a nyák lemezt. Jobb ha csak 0,5-1cm-en lóg ki a fúróból a fúrószár, mert akkor nem törik el.<br>
+<img src="../tervek/kesznyak.jpg" Border=1 width=200>
+<li> Forrasszuk be az alkatrészeket. Ezt már nem részletezem, hogy kell.
+Ügyeljünk arra, hogy ne melegedjenek túl az alkatrészek.
+Előfordul, hogy a trimmer potméter nem akkora lesz, mint amilyen a terven van, erre majd figyeljetek, és a pontozásnál úgy pontozzátok be, hogy be tudjátok forrasztani.
+</ol>
+&nbsp
+<p>A kapcsolókat vezetékkel kell beforrasztani, és azokat a rakéta oldalára kell helyezni. A K1 a főkapcsoló, a K2 egy olyan mikrokapcsoló, mely az állványon be van nyomva (az állványon valami kiálló rész benyomva tartja), és ha elindul, akkor indul az időzítés. Persze ha K1 be van kapcsolva. </p>
+<p>A rakéta felhelyezése után biztosítjuk a K2 benyomva tartását (nyitott kapcsoló), majd ezután lehet bekapcsolni K1-et, aztán jöhet az indítás.</p>
+&nbsp
++infók:
+&nbsp
+<p>-A gyújtást kis izzóval (rizsszem izzó) valósítsuk meg! A maximum áram 800mA, tehát ne kössünk be rézszálat, vagy nagy teljesítményű izzót. 3-6V-os max 3w-os izzót használjunk, de bőven sok a 0,5W-os is. Egy rizsszem izzó jobb helyeken 20Ft-ért kapható, akár karácsonyfa izzóval is megoldható a dolog. A gyújtó elkészítését lásd <a href="ignition3.html"> itt</a>.</p>
+
+<p>-Az idő beállítása a trimmer potméterrel történik. Ebben a kapcsolásban 0-10s-ig lehet az időt beállítani, de az elektrolit kondenzátor vagy a trimmer cseréjével lehet változtatni ezen. Az időzítést a kettő szorzata határozza meg: 0,000022F*470000ohm=> 10,34s 
+Tehát, ha egy 47uF-os kondenzátort teszünk be, akkor az idő kitolódik 22s-ra.
+Az időzítés próbáját egy ép izzó (nem a kész gyújtó) bekötésével végezhetjük el.</p>
+
+<p>-Forrasztásnál a tranzisztor lábait fogjuk meg fogóval, különben túlmelegszik, és nem fog rendesen működni az időzítő. (Problémák léphetnek fel) Érdemes ezért 2-3db tranzisztort beszerezni (13Ft/db).</p>
+
+
+Sok sikert az építéshez:<br>
+
+*Bali*
+
+<P>&nbsp; </P>
+<P>&nbsp; </P>
+
+</BODY>
+
+<!-- Mirrored from brocketry.cabspace.com/files/pages_hu/email.html by HTTrack Website Copier/3.x [XR&CO'2004], Mon, 11 Dec 2006 20:33:50 GMT -->
+</HTML>
